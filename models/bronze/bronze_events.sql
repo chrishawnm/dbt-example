@@ -1,0 +1,9 @@
+select 
+    created,
+    firm_id,
+    user_id,
+    event_type,
+    num_docs,
+    feedback_score
+from
+    events_source
